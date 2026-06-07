@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Haga Pizzeria - Norrköpings bästa pizzeria med autentisk italiensk mat. Beställ online eller ring 011-18 26 01.">
+    <meta name="keywords" content="pizzeria, pizza, Norrköping, italiensk mat, kebab, gyros">
+    <meta name="theme-color" content="#c41e3a">
+    <title>Haga Pizzeria - Norrköping | Autentisk Italiensk Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <h1>🍕 Haga Pizzeria</h1>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <a href="#hem" class="nav-link">Hem</a>
+                    <a href="#meny" class="nav-link">Meny</a>
+                    <a href="#specialerbjudanden" class="nav-link">Erbjudanden</a>
+                    <a href="#omoss" class="nav-link">Om Oss</a>
+                    <a href="#recensioner" class="nav-link">Recensioner</a>
+                    <a href="#kontakt" class="nav-link">Kontakt</a>
+                </div>
+                <button class="hamburger" id="hamburger" aria-label="Meny">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hem" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2 class="hero-headline">Autentisk Italiensk Pizza</h2>
+                <p class="hero-subheadline">Tillverkad med kärlek sedan dag ett</p>
+                <div class="hero-cta">
+                    <a href="tel:011-182601" class="cta-button cta-primary">Ring: 011-18 26 01</a>
+                    <a href="#meny" class="cta-button cta-secondary">Se Meny</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="pizza-placeholder">🍕</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Info Bar -->
+    <section class="quick-info">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-card">
+                    <span class="info-icon">📞</span>
+                    <p><strong>Ring och beställ</strong><br>011-18 26 01</p>
+                </div>
+                <div class="info-card">
+                    <span class="info-icon">⏰</span>
+                    <p><strong>Öppet</strong><br>Mån-Fre: 11:00-22:00<br>Lör-Sön: 12:00-22:00</p>
+                </div>
+                <div class="info-card">
+                    <span class="info-icon">📍</span>
+                    <p><strong>Besök oss</strong><br>Breda vägen 28<br>602 14 Norrköping</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Pizzas Section -->
+    <section class="featured">
+        <div class="container">
+            <h2 class="section-title">Våra Favoritpizzor</h2>
+            <p class="section-subtitle">Kundernas mest beställda rätter</p>
+            <div class="featured-grid">
+                <div class="featured-card">
+                    <div class="featured-icon">🧄</div>
+                    <h3>Marinara</h3>
+                    <p>Räkor, musslor</p>
+                    <span class="price">110:-</span>
+                </div>
+                <div class="featured-card">
+                    <div class="featured-icon">🥩</div>
+                    <h3>Eli Pizza</h3>
+                    <p>Oxfilé, räkor, färska tomater, bearnaisesås</p>
+                    <span class="price">130:-</span>
+                </div>
+                <div class="featured-card">
+                    <div class="featured-icon">🍗</div>
+                    <h3>Apollo</h3>
+                    <p>Oxfilé, champinjoner, färska tomater, fefferoni, tzatziki</p>
+                    <span class="price">130:-</span>
+                </div>
+                <div class="featured-card">
+                    <div class="featured-icon">🥬</div>
+                    <h3>Vegetaria</h3>
+                    <p>Champinjoner, lök, paprika, kronärtskocka, oliver</p>
+                    <span class="price">110:-</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers Section -->
+    <section id="specialerbjudanden" class="special-offers">
+        <div class="container">
+            <h2 class="section-title">Specialerbjudanden</h2>
+            <div class="offers-grid">
+                <div class="offer-card">
+                    <h3>🎉 Familjemeny</h3>
+                    <p>Perfekt för familjer</p>
+                    <ul>
+                        <li>Ordinarie (4 pers) - 300:-</li>
+                        <li>Mellan - 320:-</li>
+                        <li>Special - 340:-</li>
+                    </ul>
+                    <a href="tel:011-182601" class="offer-cta">Beställ Nu</a>
+                </div>
+                <div class="offer-card featured-offer">
+                    <h3>🔥 Hot Pizzor</h3>
+                    <p>För de som gillar det starkt</p>
+                    <ul>
+                        <li>Azteka - 130:-</li>
+                        <li>Mexicana - 130:-</li>
+                        <li>Acapulco - 140:-</li>
+                    </ul>
+                    <a href="tel:011-182601" class="offer-cta">Beställ Nu</a>
+                </div>
+                <div class="offer-card">
+                    <h3>🥙 Kebab/Gyros</h3>
+                    <p>Färskt och gott</p>
+                    <ul>
+                        <li>Med bröd - 90:-</li>
+                        <li>Rulle - 110:-</li>
+                        <li>Tallrik - 115:-</li>
+                    </ul>
+                    <a href="tel:011-182601" class="offer-cta">Beställ Nu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="meny" class="menu">
+        <div class="container">
+            <h2 class="section-title">Vår Meny</h2>
+            <p class="section-subtitle">Ett urval av våra mest populära rätter</p>
+            
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-category="pizzor">Pizzor</button>
+                <button class="menu-tab" data-category="special">Special</button>
+                <button class="menu-tab" data-category="kebab">Kebab & Gyros</button>
+                <button class="menu-tab" data-category="sallader">Sallader</button>
+            </div>
+
+            <!-- Pizzor Category -->
+            <div class="menu-category active" id="pizzor">
+                <h3 class="category-title">Ordinarie Pizzor - 110:-</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Vesuvio</h4>
+                            <span class="price">110:-</span>
+                        </div>
+                        <p class="item-ingredients">Skinka</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Al Funghi</h4>
+                            <span class="price">110:-</span>
+                        </div>
+                        <p class="item-ingredients">Champinjoner</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Bolognese</h4>
+                            <span class="price">110:-</span>
+                        </div>
+                        <p class="item-ingredients">Köttfärssås</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Capricciosa</h4>
+                            <span class="price">110:-</span>
+                        </div>
+                        <p class="item-ingredients">Skinka, champinjoner</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Hawaii</h4>
+                            <span class="price">110:-</span>
+                        </div>
+                        <p class="item-ingredients">Skinka, ananas</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>La Bussola</h4>
+                            <span class="price">110:-</span>
+                        </div>
+                        <p class="item-ingredients">Skinka, räkor</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Vegetaria</h4>
+                            <span class="price">110:-</span>
+                        </div>
+                        <p class="item-ingredients">Champinjoner, lök, paprika, kronärtskocka, oliver</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Al Tonno</h4>
+                            <span class="price">110:-</span>
+                        </div>
+                        <p class="item-ingredients">Tonfisk</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Pescatore</h4>
+                            <span class="price">110:-</span>
+                        </div>
+                        <p class="item-ingredients">Tonfisk, räkor, lök</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Tutti Frutti</h4>
+                            <span class="price">110:-</span>
+                        </div>
+                        <p class="item-ingredients">Skinka, banan, curry, ananas</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Marinara</h4>
+                            <span class="price">110:-</span>
+                        </div>
+                        <p class="item-ingredients">Räkor, musslor</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Napolitana</h4>
+                            <span class="price">110:-</span>
+                        </div>
+                        <p class="item-ingredients">Salami, lök, oliver</p>
+                    </div>
+                </div>
+
+                <h3 class="category-title mt-40">Pizzor - 120:-</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Long John</h4>
+                            <span class="price">120:-</span>
+                        </div>
+                        <p class="item-ingredients">Tonfisk, räkor, skinka</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Quattro Stagioni</h4>
+                            <span class="price">120:-</span>
+                        </div>
+                        <p class="item-ingredients">Skinka, räkor, champinjoner, musslor, kronärtskocka, oliver</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Milano</h4>
+                            <span class="price">120:-</span>
+                        </div>
+                        <p class="item-ingredients">Skinka, räkor, champinjoner</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Bella</h4>
+                            <span class="price">120:-</span>
+                        </div>
+                        <p class="item-ingredients">Skinka, bacon, champinjoner, lök, ägg</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Katti</h4>
+                            <span class="price">120:-</span>
+                        </div>
+                        <p class="item-ingredients">Salami, bacon, lök, champinjoner, oliver</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>La Maffia</h4>
+                            <span class="price">120:-</span>
+                        </div>
+                        <p class="item-ingredients">Skinka, räkor, köttfärssås</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Romana</h4>
+                            <span class="price">120:-</span>
+                        </div>
+                        <p class="item-ingredients">Köttfärssås, lök, paprika, ägg</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Special Category -->
+            <div class="menu-category" id="special">
+                <h3 class="category-title">Specialpizzor - 130:-</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Eli Pizza</h4>
+                            <span class="price">130:-</span>
+                        </div>
+                        <p class="item-ingredients">Oxfilé, räkor, färska tomater, bearnaisesås</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Apollo</h4>
+                            <span class="price">130:-</span>
+                        </div>
+                        <p class="item-ingredients">Oxfilé, champinjoner, färska tomater, fefferoni, tzatziki</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Black & White</h4>
+                            <span class="price">130:-</span>
+                        </div>
+                        <p class="item-ingredients">Oxfilé, fläskfilé, champinjoner, bearnaisesås</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Tropicana</h4>
+                            <span class="price">130:-</span>
+                        </div>
+                        <p class="item-ingredients">Fläskfilé, skinka, räkor, banan, curry</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Haga Special</h4>
+                            <span class="price">130:-</span>
+                        </div>
+                        <p class="item-ingredients">Oxfilé, champinjoner, skinka, bearnaisesås, räkor</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Napoli</h4>
+                            <span class="price">130:-</span>
+                        </div>
+                        <p class="item-ingredients">Oxfilé, champinjoner, gorgonzolaost</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Valentino</h4>
+                            <span class="price">130:-</span>
+                        </div>
+                        <p class="item-ingredients">Kyckling, champinjoner, curry</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Flamingo</h4>
+                            <span class="price">130:-</span>
+                        </div>
+                        <p class="item-ingredients">Kyckling, ananas, banan, curry</p>
+                    </div>
+                </div>
+
+                <h3 class="category-title mt-40">Hot Pizzor</h3>
+                <div class="menu-items">
+                    <div class="menu-item hot">
+                        <div class="item-header">
+                            <h4>🔥 Azteka</h4>
+                            <span class="price">130:-</span>
+                        </div>
+                        <p class="item-ingredients">Skinka, tacokryddamix, tacosås, jalapeno, tzatziki</p>
+                    </div>
+                    <div class="menu-item hot">
+                        <div class="item-header">
+                            <h4>🔥 Mexicana</h4>
+                            <span class="price">130:-</span>
+                        </div>
+                        <p class="item-ingredients">Köttfärssås, lök, tacokryddamix, tacosås, jalapeno, vitlök</p>
+                    </div>
+                    <div class="menu-item hot">
+                        <div class="item-header">
+                            <h4>🔥 Acapulco</h4>
+                            <span class="price">140:-</span>
+                        </div>
+                        <p class="item-ingredients">Oxfilé, tacokryddamix, lök, champinjoner, tacosås, jalapeno, vitlök</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kebab & Gyros Category -->
+            <div class="menu-category" id="kebab">
+                <h3 class="category-title">Kebab Meny</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Kebab med Bröd</h4>
+                            <span class="price">90:-</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Kebabrulle</h4>
+                            <span class="price">110:-</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Kebabtallrik</h4>
+                            <span class="price">115:-</span>
+                        </div>
+                        <p class="item-ingredients">Med pomme eller ris</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Gyros med Bröd</h4>
+                            <span class="price">90:-</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Gyrosrulle</h4>
+                            <span class="price">110:-</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Gyrostallrik</h4>
+                            <span class="price">115:-</span>
+                        </div>
+                        <p class="item-ingredients">Med pomme eller ris</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sallader Category -->
+            <div class="menu-category" id="sallader">
+                <h3 class="category-title">Sallader - 120:-</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Kycklingsallad</h4>
+                            <span class="price">120:-</span>
+                        </div>
+                        <p class="item-ingredients">Kyckling, champinjoner, paprika, ananas</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Grekisk Sallad</h4>
+                            <span class="price">120:-</span>
+                        </div>
+                        <p class="item-ingredients">Salladsost, oliver, lök, fefferoni, paprika</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Räksallad</h4>
+                            <span class="price">120:-</span>
+                        </div>
+                        <p class="item-ingredients">Räkor, citron</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Tonfisksallad</h4>
+                            <span class="price">120:-</span>
+                        </div>
+                        <p class="item-ingredients">Tonfisk, oliver, lök, fefferoni</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Kebab/Gyros Sallad</h4>
+                            <span class="price">120:-</span>
+                        </div>
+                        <p class="item-ingredients">Kebab/gyros, lök, fefferoni</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="omoss" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Om Haga Pizzeria</h2>
+                    <p>Välkommen till Haga Pizzeria, Norrköpings mest älskade pizzeria! Vi har varit här för att servera autentisk italiensk pizza och verklig hemlagad mat i över två decennier.</p>
+                    <p>Vår passion är att göra varje pizza perfekt – från den klassiska Marinaran till våra mer äventyrliga skapelser. Vi använder endast de bästa ingredienserna och tillagar allt med kärlek och omsorg.</p>
+                    <p>Våra kunder säger att vi serverar Norrköpings godaste pizza, och det är något vi är mycket stolta över. Besök oss idag och känn skillnaden som autenticitet gör!</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>20+</h3>
+                        <p>År i branschen</p>
+                    </div>
+                    <div class="stat">
+                        <h3>1000+</h3>
+                        <p>Nöjda kunder</p>
+                    </div>
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Pizzor & rätter</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="recensioner" class="reviews">
+        <div class="container">
+            <h2 class="section-title">Vad våra kunder säger</h2>
+            <p class="section-subtitle">Läs vad Norrköpingsborna tycker om oss</p>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Norrköpings godaste pizza. Lokalen kanske inte imponerar men pizzan är på topp. Personalen är alltid trevlig och tillmötesgående."</p>
+                    <p class="review-author">— Superpuff</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Perfekt service, god snabbmat. Jag gillar kebab i bröd, så gott!"</p>
+                    <p class="review-author">— Agneta Ljungberg</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Mycket god mat i denna pizzeria. Personalen jätte trevligt. Har nästan provat alla pizzerior i Norrköping men denna är den bästa. Prova på."</p>
+                    <p class="review-author">— Sylvestre Canon</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Väldigt nöjd med maten! Beställde pizza (vegetariskt med tonfisk) och allt smakade väldigt gott. Botten var bra stekt med lite knaprigt. Rekommenderar!"</p>
+                    <p class="review-author">— Deniz R.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontakt" class="contact">
+        <div class="container">
+            <h2 class="section-title">Kontakta Oss</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>📞 Ring Oss</h3>
+                    <p><a href="tel:011-182601" class="contact-link">011-18 26 01</a></p>
+                    <p class="small-text">Vi svarar snabbt och tar dina beställningar</p>
+                </div>
+                <div class="contact-info">
+                    <h3>📍 Besök Oss</h3>
+                    <p>Breda vägen 28<br>602 14 Norrköping</p>
+                    <p class="small-text"><a href="https://maps.google.com/?q=Breda+vägen+28+Norrköping" target="_blank" class="contact-link">Se på karta</a></p>
+                </div>
+                <div class="contact-info">
+                    <h3>⏰ Öppettider</h3>
+                    <p>Mån-Fre: 11:00-22:00<br>Lör-Sön: 12:00-22:00<br><span class="winter-note">Vintertid: Sön-Tors 21:00</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Haga Pizzeria</h3>
+                    <p>Autentisk italiensk pizza i Norrköping</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Snabblänkar</h3>
+                    <ul>
+                        <li><a href="#meny">Meny</a></li>
+                        <li><a href="#omoss">Om Oss</a></li>
+                        <li><a href="#recensioner">Recensioner</a></li>
+                        <li><a href="tel:011-182601">Ring Oss</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Följ Oss</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook" class="social-link">f</a>
+                        <a href="#" aria-label="Instagram" class="social-link">📷</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Haga Pizzeria. Alla rättigheter förbehålles.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
